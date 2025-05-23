@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" class="enexui_custom_scrollbar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPoricoy - Fighting Scams , Together.</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/logo/favicon.ico" />
+  <!-- ========== All JS Link Here  -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script> -->
+  <!-- ========== All Css Link Here  -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/media.css" />
+</head>
+
+<body>
+  <!-- ========== Start Navbar Here  -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <!-- ========== Main light logo Here  -->
+        <img id="logo" src="assets/images/logo/light_logo.png" alt="Enexcode" />
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_section">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item more_dropdown">
+            <a class="nav-link" href="#">More &#10534</a>
+            <ul class="more_dropdown_menu">
+              <li>
+                <a href="#">Link 1</a>
+              </li>
+              <li class="sub_dropdown">
+                <a href="#">&#10534 Link 2</a>
+                <ul class="sub_dropdown_menu">
+                  <li>
+                    <a href="#">sub menu 1</a>
+                  </li>
+                  <li>
+                    <a href="#">sub menu 2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+           <select id="language">
+    <option value="en">English</option>
+    <option value="bn">বাংলা</option>
+  </select>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex justify-content-between">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80">
+            <path class="line top"
+              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom"
+              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+        </button>
+        <button class="nav-link" id="theme-toggle">
+          <i id="theme-icon" class="fa fa-sun-o" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!-- ========== End Navbar Here  -->
+
+  <!-- ========== Start Hero Section Here  -->
+  <section id="here_section" class="dark_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="hero_text">
+            <h4 class="white_text" data-i18n="subtitle">
+              Fighting <span class="primary_text">Scams</span> , Together.
+            </h4>
+            <h1 class="white_text">
+              Join Eporicoy to build a safer digital Bangladesh.
+            </h1>
+            <p>
+              Eporicoy helps you verify scams in Bangladesh using name, phone number, or even a face photo. Search, report, and stay safe from fraud. Upload a scammer’s image to check if they’re flagged by others. Make smarter decisions and protect yourself and your community.
+            </p>
+            <div class="d-flex gap-2">
+              <a href="#" class="button">
+              <span class="text">Check Now</span>
+              <div class="overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </div>
+            </a>
+            <a href="#" class="button">
+              <span class="text">Report Fraud</span>
+              <div class="overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero_image position-relative w-100 h-100">
+            <img src="assets/images/hero/face_scanning.png" alt="Eporicoy">
+              <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/c00f031e-005d-41c8-8c07-6a7efc0e89a9/1Iq5LzawAl.lottie" background="transparent" speed="1" loop autoplay class="hero_ani"></dotlottie-player>
+          </div>
+          <!-- <div class="hero_video">
+            <div class="video-container mt-5">
+              
+              <div class="video-thumbnail" id="video-thumbnail">
+                <img src="assets/images/hero/video_thumbnail.png" alt="Video Thumbnail" />
+                <div class="play-button"></div>
+              </div>
+              
+              <iframe id="youtube-video" src="" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+  </section>
+  <!-- ========== End Hero Section Here  -->
+
+  <!-- ========== Start About Section Here  -->
+  <section id="about_section" class="dark_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title position-relative">
+            <div class="three">
+              <h1>About Us</h1>
+              <p class="primary_text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-6">
+          <div class="about_text">
+            <h3 class="primary_text mt-1">Enexcode is a creative tech company specializing in web development, design,
+              and innovative solutions. We turn ideas into reality using modern tools and strategies.</h3>
+            <p class="white_text mt-3 mb-4">With the motto "Envision, Execute, Elevate," we are dedicated to turning our
+              clients’ dreams into reality. Our commitment lies in delivering high-quality solutions that not only meet
+              expectations but also elevate their projects to new heights.</p>
+
+            <a href="#" class="button mt-3">
+              <span class="text">More About</span>
+              <div class="overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="skills">
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>BOOTSTRAP</span>
+                    </div>
+                    <div class="progress-line">
+                      <span class="bootstrap"></span>
+                    </div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line">
+                        <span class="javascript"></span>
+                      </div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>C PROGRAMMING</span>
+                        </div>
+                        <div class="progress-line">
+                          <span class="c"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End About Section Here  -->
+
+  <!-- ========== Start Services Section Here  -->
+  <section id="service_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title position-relative">
+            <div class="three">
+              <h1>Service</h1>
+              <p class="primary_text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <div class="wrapper">
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" alt="Enexcode">
+              <h1>
+                Web Design
+              </h1>
+              <p style="font-size: 14px;" class="text-center primary_text ps-4 pe-4">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="wrapper">
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" alt="Enexcode">
+              <h1>
+                Web Develop
+              </h1>
+              <p style="font-size: 14px;" class="text-center primary_text ps-4 pe-4">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="wrapper">
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" alt="Enexcode">
+              <h1>
+                Convert HTML
+              </h1>
+              <p style="font-size: 14px;" class="text-center primary_text ps-4 pe-4">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="wrapper">
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" alt="Enexcode">
+              <h1>
+                Convert HTML
+              </h1>
+              <p style="font-size: 14px;" class="text-center primary_text ps-4 pe-4">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="wrapper">
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" alt="Enexcode">
+              <h1>
+                Convert HTML
+              </h1>
+              <p style="font-size: 14px;" class="text-center primary_text ps-4 pe-4">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="wrapper">
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" alt="Enexcode">
+              <h1>
+                Convert HTML
+              </h1>
+              <p style="font-size: 14px;" class="text-center primary_text ps-4 pe-4">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End Services Section Here  -->
+  <!-- ========== Start Portfolio Section Here  -->
+  <section id="portfolio_section" class="dark_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title position-relative">
+            <div class="three">
+              <h1>Portfolio</h1>
+              <p class="primary_text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <a href="https://enexspeech.enexcode.com" target="_blank">
+
+            <figure class="snip1199 navy">
+              <img src="assets/images/portfolio/EnexSpeech.png" alt="sample8" /><i class="fa fa-code"></i>
+              <figcaption>
+                <h3>EnexSpeech</h3>
+              </figcaption>
+              <h4>Name of portfolio site</h4>
+            </figure>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#">
+            <figure class="snip1199 navy">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample8.jpg" alt="sample8" /><i
+                class="fa fa-code"></i>
+              <figcaption>
+                <h3>EnexSpeech</h3>
+              </figcaption>
+              <h4>Name of portfolio site</h4>
+            </figure>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#">
+            <figure class="snip1199 navy">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample8.jpg" alt="sample8" /><i
+                class="fa fa-code"></i>
+              <figcaption>
+                <h3>EnexSpeech</h3>
+              </figcaption>
+              <h4>Name of portfolio site</h4>
+            </figure>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#">
+            <figure class="snip1199 navy">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample8.jpg" alt="sample8" /><i
+                class="fa fa-code"></i>
+              <figcaption>
+                <h3>EnexSpeech</h3>
+              </figcaption>
+              <h4>Name of portfolio site</h4>
+            </figure>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#">
+            <figure class="snip1199 navy">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample8.jpg" alt="sample8" /><i
+                class="fa fa-code"></i>
+              <figcaption>
+                <h3>EnexSpeech</h3>
+              </figcaption>
+              <h4>Name of portfolio site</h4>
+            </figure>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="#">
+            <figure class="snip1199 navy">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample8.jpg" alt="sample8" /><i
+                class="fa fa-code"></i>
+              <figcaption>
+                <h3>EnexSpeech</h3>
+              </figcaption>
+              <h4>Name of portfolio site</h4>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End Portfolio Section Here  -->
+  <!-- ========== Start Blog Section Here  -->
+  <section id="blog_section" class="blog-area pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title position-relative">
+            <div class="three">
+              <h1>Latest Blog</h1>
+              <p class="primary_text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div class="blog-wrapper home-blog-wrapper white-bg">
+            <div class="blog-thumb">
+              <a href="https://bit.ly/2LHKl61">
+                <img src="https://i.ibb.co/HrtN39y/services1.jpg" alt="" />
+              </a>
+            </div>
+            <div class="meta-info">
+              <ul>
+                <li class="posts-time">January 08, 2019</li>
+                <li class="blog_author">Enexcode</li>
+              </ul>
+            </div>
+            <div class="blog-content home-blog">
+              <h2 class="blog-title">
+                <a href="https://bit.ly/2LHKl61">4 Myths Rand Fishkin Wants You to Question Launching</a>
+              </h2>
+              <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                born and I will give you a complete
+                account of the system </p>
+            </div>
+            <div class="link-box home-blog-link d-flex justify-content-between">
+              <a href="https://bit.ly/2LHKl61">Read More</a>
+              <p class="d-inline-block text-end"><i style='font-size:24px' class='fa'>&#xf086;</i> 10</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div class="blog-wrapper home-blog-wrapper white-bg">
+            <div class="blog-thumb">
+              <a href="https://bit.ly/2LHKl61">
+                <img src="https://i.ibb.co/HrtN39y/services1.jpg" alt="" />
+              </a>
+            </div>
+            <div class="meta-info">
+              <ul>
+                <li class="posts-time">January 08, 2019</li>
+                <li class="blog_author">Enexcode</li>
+              </ul>
+            </div>
+            <div class="blog-content home-blog">
+              <h2 class="blog-title">
+                <a href="https://bit.ly/2LHKl61">How To Be The Highest Marketer On Your Team And Skills</a>
+              </h2>
+              <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                born and I will give you a complete
+                account of the system </p>
+            </div>
+            <div class="link-box home-blog-link d-flex justify-content-between">
+              <a href="https://bit.ly/2LHKl61">Read More</a>
+              <p class="d-inline-block text-end"><i style='font-size:24px' class='fa'>&#xf086;</i> 10</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div class="blog-wrapper home-blog-wrapper white-bg">
+            <div class="blog-thumb">
+              <a href="https://bit.ly/2LHKl61">
+                <img src="https://i.ibb.co/HrtN39y/services1.jpg" alt="" />
+              </a>
+            </div>
+            <div class="meta-info">
+              <ul>
+                <li class="posts-time">January 08, 2019</li>
+                <li class="blog_author">Enexcode</li>
+              </ul>
+            </div>
+            <div class="blog-content home-blog">
+              <h2 class="blog-title">
+                <a href="https://bit.ly/2LHKl61">How To Be The Highest Marketer On Your Team And Skills</a>
+              </h2>
+              <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                born and I will give you a complete
+                account of the system </p>
+            </div>
+            <div class="link-box home-blog-link d-flex justify-content-between">
+              <a href="https://bit.ly/2LHKl61">Read More</a>
+              <p class="d-inline-block text-end"><i style='font-size:24px' class='fa'>&#xf086;</i> 10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End Blog Section Here  -->
+  <!-- ========== Start Contact Section Here  -->
+  <section id="contact_section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-12">
+          <div class="section_title position-relative">
+            <div class="three">
+              <h1>Contact Us</h1>
+              <p class="primary_text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <i class="fa fa-map"></i> &nbsp &nbsp
+
+              <p class="m-0">92 Cherry Drive Uniondale, NY 11553</p>
+            </div>
+            <div class="information">
+              <i class="fa fa-envelope"></i> &nbsp &nbsp
+              <p class="m-0">lorem@ipsum.com</p>
+            </div>
+            <div class="information">
+              <i class="fa fa-whatsapp"></i>&nbsp&nbsp
+              <p class="m-0">123-456-789</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-whatsapp"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End Contact Section Here  -->
+  <!-- ========== Start Footer Section Here  -->
+  <footer class="footer-02">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 col-lg-6">
+          <div class="subscribe mb-5">
+            <form action="#" class="subscribe-form">
+              <div class="form-group d-flex">
+                <input type="text" class="form-control rounded-left" placeholder="Your email here">
+                <input type="submit" value="Join Us" class="form-control submit px-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-5 ">
+          <div class="row">
+            <div class="col-md-12 col-lg-8 mb-md-0 mb-4">
+              <h2 class="footer-heading"><a href="#" class="logo">
+                  <img class="w-75" id="logo" src="assets/images/logo/light_logo.png" alt="Enexcode" />
+                </a></h2>
+              <p>Empowering creators and developers with tools, resources, and inspiration to build better digital
+                experiences.</p>
+              <a href="#">Learn More <span class="ion-ios-arrow-round-forward"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-lg-7">
+          <div class="row">
+            <div class="col-md-3 mb-md-0 mb-4 border-left col-sm-6 col-6">
+              <h2 class="footer-heading">Explore</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-1 d-block">Products</a></li>
+                <li><a href="#" class="py-1 d-block">Services</a></li>
+                <li><a href="#" class="py-1 d-block">Pricing</a></li>
+                <li><a href="#" class="py-1 d-block">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-4 border-left col-sm-6 col-6">
+              <h2 class="footer-heading">Company</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-1 d-block">About Us</a></li>
+                <li><a href="#" class="py-1 d-block">Our Team</a></li>
+                <li><a href="#" class="py-1 d-block">Jobs</a></li>
+                <li><a href="#" class="py-1 d-block">Press</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-4 border-left col-sm-6 col-6">
+              <h2 class="footer-heading">Support</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-1 d-block">Documentation</a></li>
+                <li><a href="#" class="py-1 d-block">Community</a></li>
+                <li><a href="#" class="py-1 d-block">Status</a></li>
+                <li><a href="#" class="py-1 d-block">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-4 border-left col-sm-6 col-6">
+              <h2 class="footer-heading">Connect</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-1 d-block">Facebook</a></li>
+                <li><a href="#" class="py-1 d-block">LinkedIn</a></li>
+                <li><a href="#" class="py-1 d-block">YouTube</a></li>
+                <li><a href="#" class="py-1 d-block">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row partner-wrap mt-5">
+        <div class="col-md-12">
+          <div class="row align-items-center">
+            <div class="col">
+              <h3 class="mb-0">Trusted By:</h3>
+            </div>
+            <div class="col-md-9">
+              <p class="partner-name mb-0">
+                <a href="#"><span class="ion-logo-ionic mr-2"></span>DevWorld</a>
+                <a href="#"><span class="ion-logo-ionic mr-2"></span>TechBay</a>
+                <a href="#"><span class="ion-logo-ionic mr-2"></span>UIBase</a>
+                <a href="#"><span class="ion-logo-ionic mr-2"></span>CodeStack</a>
+                <a href="#"><span class="ion-logo-ionic mr-2"></span>DesignX</a>
+                <a href="#"><span class="ion-logo-ionic mr-2"></span>NextPro</a>
+              </p>
+            </div>
+            <div class="col text-md-right">
+              <p class="mb-0"><a href="#" class="btn-custom">View All <span
+                    class="ion-ios-arrow-round-forward"></span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-8">
+          <p class="copyright">
+            &copy;
+            <script>document.write(new Date().getFullYear());</script> Enexcode | Crafted with <i class="ion-ios-heart"
+              aria-hidden="true"></i> for creators worldwide.
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-md-right">
+          <p class="mb-0 list-unstyled">
+            <a class="mr-md-3" href="#">Terms</a>
+            <a class="mr-md-3" href="#">Privacy</a>
+            <a class="mr-md-3" href="#">Compliance</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== End Footer Section Here  -->
+  <!-- ========== Start Commont Tools Section Here  -->
+  <!-- ===== Back to top Button  -->
+  <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top"><i class="fa fa-arrow-up"
+      aria-hidden="true"></i></button>
+  <!-- ========== End Commont Tools Section Here  -->
+  <!-- ========== All JS Link Here  -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/background_effect.js"></script>
+  <script src="https://unpkg.com/node-polyglot/build/polyglot.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
