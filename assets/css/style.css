@@ -280,10 +280,11 @@ select:focus {
   width: 70%;
   height: auto;
   border-radius: 20px;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
 	left: 50%;
-	transform: translateX(-50%);
+	/* transform: translateX(-50%); */
+  text-align: center;
 }
 /* Style for the video container */
 .video-container {
