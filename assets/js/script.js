@@ -126,34 +126,3 @@ function scrollToTop() {
     behavior: 'smooth'
   });
 }
-
-
-// ==== polyglot - Multi language 
-const langSelect = document.getElementById("language");
-let polyglot = new Polyglot();
-
-function updateText() {
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    el.textContent = polyglot.t(key) || `[${key}]`;
-  });
-}
-
-function loadLanguage(lang) {
-  fetch(`lang/${lang}.json`)
-    .then(res => res.json())
-    .then(data => {
-      polyglot.replace(data);
-      updateText();
-    })
-    .catch(err => console.error("Language loading error:", err));
-}
-
-// Default language
-loadLanguage("en");
-
-langSelect.addEventListener("change", function () {
-  const selectedLang = this.value;
-  loadLanguage(selectedLang);
-});
-

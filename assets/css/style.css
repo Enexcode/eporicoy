@@ -4,6 +4,7 @@
   --primary-color: #29903b;
   --secendary-color: #29903a3f;
   --dark-color: #0d1117;
+  --dark-color-50: #0d111780;
   --white-color: #ffffff;
   --white-color-50: #ffffff90;
   --white-color-10: #ffffff10;
@@ -215,6 +216,22 @@ select:focus {
   opacity: 1;
 }
 
+#language {
+  background-color: var(--primary-color); 
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#language option {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  border: none;
+}
+
 /* ========== Navbar End */
 /* ========== Hero Section Start */
 #here_section {
@@ -227,10 +244,11 @@ select:focus {
 #here_section .hero_ani {
 	position: absolute;
 	z-index: 99;
-	width: 65%;
+	width: 55%;
 	height: auto;
-	bottom: -60px;
-	left: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 10px;
 }
 #here_section .hero_text {
   position: relative;
@@ -264,7 +282,8 @@ select:focus {
   border-radius: 20px;
   position: absolute;
   top: 0;
-  right: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 /* Style for the video container */
 .video-container {
@@ -427,6 +446,50 @@ button {
 }
 
 /* ========== Hero Section End */
+
+/* ========== How to Works Section Start */
+.how-it-works {
+      padding: 80px 20px;
+      background-color: var(--dark-color);
+    }
+    .how-it-works h2 {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  .icon-box {
+  background: var(--dark-color);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  transition: 0.3s;
+box-shadow: 0 6px 20px var(--secendary-color);
+}
+
+    .icon-box:hover {
+      background-color: var(--white-color-10);
+    }
+    .icon-box img {
+      font-size: 32px;
+      margin-bottom: 10px;
+      height: 50px;
+    }
+    .icon-title {
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 18px;
+      color: var(--primary-color);
+    }
+    .icon-description {
+      font-size: 14px;
+      color: var(--white-color);
+    }
+    .img-box img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+/* ========== How to Works Section End */
+
 /* ========== About Section Start */
 /* === HEADING STYLE #3 === */
 #about_section {
@@ -879,6 +942,13 @@ figure.snip1199.hover i {
 }
 
 /* ========== Portfolio Section End */
+
+/* ========== Scam Report Section Start */
+.chart_box{
+  background-color: var(--dark-color-50);
+}
+/* ========== Scam Report Section End */
+
 /* ========== Blog Section Start */
 #blog_section {
   padding: 40px 0px;
